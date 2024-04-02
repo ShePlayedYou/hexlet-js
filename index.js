@@ -1,7 +1,5 @@
+// eslint-disable-next-line import/extensions
 import c from './src/index.js';
-console.log(c());
 
-const fn = (a, b) => {
-  const c = a + b;
-  return c;
-};
+// eslint-disable-next-line no-console
+console.log(c());
