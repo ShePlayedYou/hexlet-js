@@ -1,6 +1,6 @@
-import _ from "lodash";
-console.log("Hello, Hexlet!");
-console.log(_.last(["one", "two"]));
+import c from './src/index.js';
+console.log(c());
+
 const fn = (a, b) => {
   const c = a + b;
   return c;
